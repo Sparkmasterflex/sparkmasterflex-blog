@@ -1,0 +1,40 @@
+@import "mixins";
+
+// Display icon only, no text
+//== icon size 16px
+.icon {
+  display: inline-block;
+  @include square(16px);
+  @include hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.icon-24 { @extend .icon; @include square(24px); } //== icon size 24px
+.icon-32 { @extend .icon; @include square(32px); } //== icon size 32px
+.icon-48 { @extend .icon; @include square(48px); } //== icon size 48px
+.icon-64 { @extend .icon; @include square(64px); } //== icon size 64px
+
+
+// Display icon to left of text
+//== icon size 16px
+.with-icon {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 3px 0 3px 20px;
+}
+.with-icon-24 { @extend .with-icon; padding: 5px 0 5px 26px;   } //== icon size 24px
+.with-icon-32 { @extend .with-icon; padding: 8px 0 8px 36px;   } //== icon size 32px
+.with-icon-48 { @extend .with-icon; padding: 15px 0 15px 50px; } //== icon size 48px
+.with-icon-64 { @extend .with-icon; padding: 20px 0 20px 68px; } //== icon size 64px
+
+// Display icon to right of text
+// == icon size 16px
+.with-icon-right {
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 3px 20px 3px 0;
+}
+
+.twitter { background-image: url(/images/icons/twitter.32.png); }
+.tumblr { background-image: url(/images/icons/tumblr.32.png); }
+.linkedin { background-image: url(/images/icons/linkedin.32.png); }

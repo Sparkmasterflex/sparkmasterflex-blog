@@ -1,0 +1,92 @@
+.sparkmasterflex-logo {
+  width: 100%;
+  max-width: 560px;
+  min-height: 9.41em;
+  background: url("images/logos/sparkmasterflex-logo.png") no-repeat center center;
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto; }
+
+.home .sparkmasterflex-logo {
+  margin-top: 2em; }
+
+.tag-line {
+  padding: 0.5em 0;
+  text-align: center; }
+
+.left-col {
+  float: left;
+  width: 49.65%;
+  width: calc(50% - 4px); }
+
+.right-col {
+  float: right;
+  width: 50%; }
+
+nav.main ul {
+  padding: 0.65em 2em; }
+  nav.main ul li {
+    float: left;
+    width: 20%; }
+    nav.main ul li a {
+      font-size: 1.286em;
+      color: #666;
+      text-decoration: none; }
+      nav.main ul li a:hover {
+        color: #00af36; }
+
+article.post {
+  margin-bottom: 1.5em;
+  padding: 2em 1em 1.5em;
+  border-bottom: 1px solid #999; }
+  article.post:first-child {
+    padding-top: 0; }
+  article.post header {
+    position: relative; }
+  article.post h2 {
+    position: relative;
+    z-index: 3; }
+  article.post p {
+    margin-bottom: 1em; }
+
+time.entry-date {
+  font-size: 1.4em;
+  display: block;
+  position: absolute;
+  top: -1em;
+  left: -1.75em;
+  width: 44px;
+  padding: 14px 0;
+  background: #00af36;
+  color: white;
+  text-align: center;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px; }
+
+.single-post time.entry-date {
+  top: 0;
+  left: auto;
+  right: -1.75em; }
+
+.widget {
+  margin: 2em 0;
+  padding: 2em 0;
+  text-align: right;
+  border-top: 1px solid #ccc; }
+  .widget:first-child {
+    border: none; }
+  .widget h3 {
+    font-size: 3.6em;
+    font-family: "Maven Pro", sans-serif; }
+  .widget ul li.h2 {
+    margin-top: 0.35em; }
+    .widget ul li.h2 a {
+      font-size: 1em; }
+  .widget ul li a {
+    font-size: 1.29em;
+    color: #333; }

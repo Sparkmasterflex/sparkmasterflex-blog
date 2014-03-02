@@ -1,0 +1,61 @@
+@import "mixins";
+
+@media screen and (max-width: 1100px) {
+  // section, .section { width: 1000px; }
+}
+
+@media screen and (max-width: 1024px) {
+  // section, .section { width: 950px; }
+}
+
+@media screen and (max-width: 800px) {
+  .left-col, .right-col {
+    float: none;
+    width: 100%;
+  }
+  .sparkmasterflex-logo {
+    width: 65%;
+    min-height: 8em;
+    margin: 0 auto;
+  }
+  .home .sparkmasterflex-logo { margin-top: 0; }
+
+  .tag-line { font-size: 3em; }
+
+  .horizontal-800 {
+    @include clearfix;
+    margin: 1em auto 2em;
+    li { width: 33%; float: left; }
+  }
+
+  .widget_archive,
+  .widget_categories { display: none; }
+  .widget_search {
+    width: 65%;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  // section, .section { width: 650px; }
+  .portrait-show { display: block; }
+  .portrait-hide { display: none; }
+}
+
+@media screen and (max-width: 600px) {
+  section, .section { width: inherit; }
+  .mobile-show { display: block; }
+  .mobile-hide { display: none; }
+
+  .sparkmasterflex-logo,
+  .horizontal-800.per-75 { width: 90%; }
+}
+
+@media screen and (max-width: 450px) {
+  .sparkmasterflex-logo { width: inherit; min-height: 6.5em; }
+  .horizontal-800.per-75 {
+    width: 75%;
+    li { float: none; width: 100%; }
+  }
+}

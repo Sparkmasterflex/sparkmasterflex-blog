@@ -1,0 +1,33 @@
+@import "mixins";
+
+input, textarea, select {
+  font-size: 1.8em;
+  padding: 0.25em 0.75em;
+  color: #333;
+  background: #eee;
+  border: 1px solid #ccc;
+  @include border-radius(3px);
+}
+
+label {
+  font-size: 1.8em;
+  input, textarea, select { font-size: 1em; }
+}
+
+input[type=submit] {
+  color: $white;
+  background: $green;
+  border: 1px solid darken($green, 15%);
+}
+
+#commentform {
+  label { display: block; margin: 0.5em 0; }
+  textarea { width: 80%; height: 8em; }
+  .form-allowed-tags {
+    margin: 1em 0;
+    padding: 1em;
+    background: #eee;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+}

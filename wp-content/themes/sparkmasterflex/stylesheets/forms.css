@@ -1,0 +1,32 @@
+input, textarea, select {
+  font-size: 1.8em;
+  padding: 0.25em 0.75em;
+  color: #333;
+  background: #eee;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+label {
+  font-size: 1.8em; }
+  label input, label textarea, label select {
+    font-size: 1em; }
+
+input[type=submit] {
+  color: white;
+  background: #00af36;
+  border: 1px solid #00621e; }
+
+#commentform label {
+  display: block;
+  margin: 0.5em 0; }
+#commentform textarea {
+  width: 80%;
+  height: 8em; }
+#commentform .form-allowed-tags {
+  margin: 1em 0;
+  padding: 1em;
+  background: #eee;
+  color: #333;
+  border: 1px solid #ccc; }

@@ -1,0 +1,47 @@
+/*========================*\
+         TEXT COLOR
+\*========================*/
+.grey {
+  color: #cccccc; }
+
+.grey-dk {
+  color: #666666; }
+
+.grey-lt {
+  color: #efefef; }
+
+.black {
+  color: black; }
+
+.white {
+  color: white; }
+
+/*========================*\
+          BG COLOR
+\*========================*/
+.grey-bg {
+  background-color: #cccccc; }
+
+.grey-dk-bg {
+  background-color: #666666; }
+
+.grey-lt-bg {
+  background-color: #efefef; }
+
+.black-bg {
+  background-color: black; }
+
+.white-bg {
+  background-color: white; }
+
+.double-border-top {
+  border-top: 4px double #999; }
+
+.double-border-bottom {
+  border-bottom: 4px double #999; }
+
+.double-border-left {
+  border-left: 4px double #999; }
+
+.double-border-right {
+  border-right: 4px double #999; }

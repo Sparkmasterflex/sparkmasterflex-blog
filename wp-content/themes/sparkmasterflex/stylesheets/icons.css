@@ -1,0 +1,55 @@
+.icon, .icon-24, .icon-32, .icon-48, .icon-64 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.icon-24 {
+  width: 24px;
+  height: 24px; }
+
+.icon-32 {
+  width: 32px;
+  height: 32px; }
+
+.icon-48 {
+  width: 48px;
+  height: 48px; }
+
+.icon-64 {
+  width: 64px;
+  height: 64px; }
+
+.with-icon, .with-icon-24, .with-icon-32, .with-icon-48, .with-icon-64 {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 3px 0 3px 20px; }
+
+.with-icon-24 {
+  padding: 5px 0 5px 26px; }
+
+.with-icon-32 {
+  padding: 8px 0 8px 36px; }
+
+.with-icon-48 {
+  padding: 15px 0 15px 50px; }
+
+.with-icon-64 {
+  padding: 20px 0 20px 68px; }
+
+.with-icon-right {
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding: 3px 20px 3px 0; }
+
+.twitter {
+  background-image: url(/images/icons/twitter.32.png); }
+
+.tumblr {
+  background-image: url(/images/icons/tumblr.32.png); }
+
+.linkedin {
+  background-image: url(/images/icons/linkedin.32.png); }
