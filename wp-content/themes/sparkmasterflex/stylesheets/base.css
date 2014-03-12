@@ -121,16 +121,18 @@ strong {
 em {
   font-style: italic; }
 
-pre {
+pre, code {
   font-size: 1.4em;
   padding: 1em;
-  margin: 1.5em 0.5em;
   background: rgba(51, 51, 51, 0.85);
   color: #00af36;
   border: 1px solid #333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 3px; }
+
+pre {
+  margin: 1.5em 0.5em;
   line-height: 1.5em;
   overflow: auto; }
 

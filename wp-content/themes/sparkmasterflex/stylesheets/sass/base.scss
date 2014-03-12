@@ -102,14 +102,17 @@ ul, ol {
 strong { font-weight: bold; }
 em { font-style: italic; }
 
-pre {
+pre, code {
   font-size: 1.4em;
   padding: 1em;
-  margin: 1.5em 0.5em;
   background: rgba(#333, 0.85);
   color: $green;
   border: 1px solid #333;
   @include border-radius(3px);
+}
+
+pre {
+  margin: 1.5em 0.5em;
   line-height: 1.5em;
   overflow: auto;
 }

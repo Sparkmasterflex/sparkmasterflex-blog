@@ -9,7 +9,11 @@
   @include bg-size(100%, auto);
 }
 
-.home .sparkmasterflex-logo { margin-top: 2em; }
+.home {
+  .sparkmasterflex-logo { margin-top: 2em; }
+  .left-col { width: 49.65%; width: calc(50% - 4px); }
+  .right-col { width: 50%; }
+}
 
 .tag-line {
   padding: 0.5em 0;
@@ -18,13 +22,13 @@
 
 .left-col {
   float: left;
-  width: 49.65%;
-  width: calc(50% - 4px);
+  width: 35.65%;
+  width: calc(35% - 4px);
 }
 
 .right-col {
   float: right;
-  width: 50%;
+  width: 65%;
 }
 
 nav.main {
