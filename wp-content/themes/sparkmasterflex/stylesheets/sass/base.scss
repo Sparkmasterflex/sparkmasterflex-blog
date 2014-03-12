@@ -103,8 +103,7 @@ strong { font-weight: bold; }
 em { font-style: italic; }
 
 pre, code {
-  font-size: 1.4em;
-  padding: 1em;
+  padding: 0.25em 0.5em;
   background: rgba(#333, 0.85);
   color: $green;
   border: 1px solid #333;
@@ -112,6 +111,8 @@ pre, code {
 }
 
 pre {
+  padding: 1em;
+  font-size: 1.4em;
   margin: 1.5em 0.5em;
   line-height: 1.5em;
   overflow: auto;
