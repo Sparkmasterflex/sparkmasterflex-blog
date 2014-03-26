@@ -121,14 +121,18 @@ strong {
 em {
   font-style: italic; }
 
-pre, code {
-  padding: 0.25em 0.5em;
-  background: rgba(51, 51, 51, 0.85);
-  color: #00af36;
+pre {
+  padding: 0.15em 0.5em;
+  background: rgba(51, 51, 51, 0.9);
+  color: #007c26;
   border: 1px solid #333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px; }
+
+code {
+  font-style: italic;
+  color: #00af36; }
 
 pre {
   padding: 1em;

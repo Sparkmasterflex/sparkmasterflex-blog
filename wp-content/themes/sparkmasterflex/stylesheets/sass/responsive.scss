@@ -9,7 +9,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .left-col, .right-col {
+  .left-col, .right-col,
+  .home .left-col, .home .right-col {
     float: none;
     width: 100%;
   }
@@ -49,6 +50,7 @@
   .mobile-hide { display: none; }
 
   .sparkmasterflex-logo,
+  .home .horizontal-800.per-75,
   .horizontal-800.per-75 { width: 90%; }
 }
 
