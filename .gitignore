@@ -4,3 +4,5 @@
 *.rb
 
 htaccess-old
+
+wp-content/plugins

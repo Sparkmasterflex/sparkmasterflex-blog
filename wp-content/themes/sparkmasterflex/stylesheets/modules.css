@@ -10,6 +10,11 @@
   -ms-background-size: 100% auto;
   -o-background-size: 100% auto;
   background-size: 100% auto; }
+  .sparkmasterflex-logo a {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    min-height: 9.41em; }
 
 .home .sparkmasterflex-logo {
   margin-top: 2em; }
@@ -89,9 +94,9 @@ time.entry-date {
     font-size: 3.6em;
     font-family: "Maven Pro", sans-serif; }
   .widget ul li.h2 {
-    margin-top: 0.35em; }
+    font-size: 2.4em; }
     .widget ul li.h2 a {
       font-size: 1em; }
   .widget ul li a {
-    font-size: 1.29em;
+    font-size: 1em;
     color: #333; }

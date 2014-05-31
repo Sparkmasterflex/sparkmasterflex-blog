@@ -4,6 +4,12 @@
   width: 100%;
   max-width: 560px;
   min-height: 9.41em;
+  a {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    min-height: 9.41em;
+  }
   background: url('images/logos/sparkmasterflex-logo.png') no-repeat center center;
   @include hidden;
   @include bg-size(100%, auto);
@@ -88,10 +94,10 @@ time.entry-date {
   ul {
     li {
       &.h2 {
-        margin-top: 0.35em;
+        font-size: 2.4em;
         a { font-size: 1em; }
       }
-      a { font-size: 1.29em; color: #333; }
+      a { font-size: 1em; color: #333; }
     }
   }
 }

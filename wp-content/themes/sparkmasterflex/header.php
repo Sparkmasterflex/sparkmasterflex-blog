@@ -28,14 +28,16 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	<?php //wp_head(); ?>
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<section>
 		<div class="left-col double-border-right">
 			<div class="pad-horizontal-20">
-				<h1 class='sparkmasterflex-logo'><?php bloginfo( 'name' ); ?></h1>
+				<h1 class='sparkmasterflex-logo'>
+					<a href="/"><?php bloginfo( 'name' ); ?></a>
+				</h1>
 			</div>
 			<?php if(is_home()) { ?>
 				<h3 class='tag-line double-border-top pad-horizontal-20'><?php bloginfo( 'description' ); ?></h3>
