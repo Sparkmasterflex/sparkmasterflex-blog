@@ -157,6 +157,10 @@ blockquote {
 .ta-right {
   text-align: right; }
 
+.entry-content img {
+  max-width: 100%;
+  height: auto; }
+
 /*==============================*\
             ANIMATIONS
 \*==============================*/

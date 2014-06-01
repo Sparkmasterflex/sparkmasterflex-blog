@@ -43,6 +43,22 @@ $green: #00af36;
   overflow: hidden;
 }
 
+@mixin icon($size) {
+  display: inline-block;
+  @include square($size);
+  @include hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+  @include bg-size(100%, auto);
+}
+
+@mixin with-icon($size) {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: $size/4 0 $size/4 $size+6;
+  @include bg-size($size, auto);
+}
+
 //======================== BORDERS
 @mixin border-radius($tl, $tr: null, $br: null, $bl: null) {
   @if $tr == null {

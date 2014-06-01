@@ -42,7 +42,35 @@
     display: block; }
 
   .portrait-hide {
-    display: none; } }
+    display: none; }
+
+  nav.main ul li {
+    width: 25%;
+    text-align: center; }
+  nav.main ul a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto; }
+    nav.main ul a.home {
+      background-image: url(images/icons/home.png); }
+    nav.main ul a.about {
+      background-image: url(images/icons/about.png); }
+    nav.main ul a.sandbox {
+      background-image: url(images/icons/sandbox.png); }
+    nav.main ul a.ifkeith {
+      background-image: url(images/icons/ifkeith.png); }
+
+  .widget_search {
+    width: 80%; } }
 @media screen and (max-width: 600px) {
   section, .section {
     width: inherit; }

@@ -58,10 +58,10 @@
 		<div id="content" class='right-col'>
 			<nav class='main double-border-bottom'>
 				<ul class="cf">
-					<li><a href="/">home</a></li>
-					<li><a href="/about">about</a></li>
-					<li><a href="/sandbox">sandbox</a></li>
-					<li><a href="http://ifkeith.com">ifkeith.com</a></li>
+					<li><a class='home' title='home' href="/">home</a></li>
+					<li><a class='about' title='about' href="/about">about</a></li>
+					<li><a class='sandbox' title='sandbox' href="/sandbox">sandbox</a></li>
+					<li><a class='ifkeith' title='ifkeith.com' href="http://ifkeith.com">ifkeith.com</a></li>
 				</ul>
 			</nav>
 			<div class="pad-20">

@@ -42,6 +42,19 @@
   // section, .section { width: 650px; }
   .portrait-show { display: block; }
   .portrait-hide { display: none; }
+
+  nav.main ul {
+    li { width: 25%; text-align: center; }
+    a {
+      @include icon(32px);
+      &.home { background-image: url(images/icons/home.png); }
+      &.about { background-image: url(images/icons/about.png); }
+      &.sandbox { background-image: url(images/icons/sandbox.png); }
+      &.ifkeith { background-image: url(images/icons/ifkeith.png); }
+    }
+  }
+
+  .widget_search { width: 80%; }
 }
 
 @media screen and (max-width: 600px) {
